@@ -2,6 +2,9 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
+var hbs = require('hbs')
+var methodOverride = 
+var morgan = 
 
 
 app.use(bodyParser.json());
